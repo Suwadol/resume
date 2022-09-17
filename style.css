@@ -1,0 +1,154 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  background: rgb(71, 71, 71);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container{
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  margin: 50px;
+  background: #fff;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(0, 0,0,0.1);
+  padding: 40px;
+}
+.container .left_Side{
+  position: relative;
+  background: #003147;
+  padding: 40px;
+}
+.Profile{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+.Profile .imgbox{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.Profile .imgbox img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.Profile h2{
+  color: #fff;
+  font-size: 20px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+
+}
+.Profile span{
+  color: #fff;
+  font-size: 15px;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 300;
+  line-height: 20px;
+}
+.contact-info{
+  padding-top: 50px;
+}
+.title{
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+.contact-info ul{
+  position: relative;
+}
+.contact-info ul li{
+  position: relative;
+  list-style: none;
+  margin: 20px 0;
+  cursor: pointer;
+}
+.contact-info ul li .icon{
+  display: inline-block;
+  width: 30px;
+  font-size: 18px;
+  color: #fff;
+}
+.contact-info ul li span{
+  color: #fff;
+  font-weight: 300;
+}
+.contact-info .Skill li{
+  margin-bottom: 15px;
+}
+.contact-info .Skill h4{
+  color: #fff;
+  font-weight: 300;
+  margin: 20px 0;
+}
+.container .right_Side{
+  position: relative;
+  background: #fff;
+  padding: 40px;
+}
+.con{
+  padding-top: 10px;
+}
+.title2{
+  color: rgb(14, 0, 71);
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+.con ul{
+  position: relative;
+}
+.con ul li{
+  position: relative;
+  list-style: none;
+  margin: 20px 0;
+  cursor: pointer;
+  line-height: 30px;
+}
+.con h5{
+  font-weight: 300;
+}
+.con h1{
+  font-weight: 600;
+  font-size: 16px;
+}
+.con h4{
+  font-weight: 500;
+}
+.con .title3{
+  padding-top: 20px;
+  border-top: 1px solid rgb(14, 0, 71);
+  color: rgb(14, 0, 71);
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+
